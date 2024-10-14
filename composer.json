@@ -1,0 +1,19 @@
+{
+    "name": "alex/php-project",
+    "description": "Studying micro-framework Slim",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Alex\\PhpProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alex",
+            "email": "alexfrolovyh@list.ru"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.14"
+    }
+}
