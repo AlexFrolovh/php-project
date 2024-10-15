@@ -27,6 +27,6 @@ $app->get('/hello/{name}', function (Request $request, Response $response, $args
 $app->run();
 
 $app->get('/about', function ($request, $response) {
-          $phpView = new PhpRenderer('../templates');
-          return $phpView->render($response, 'about.phtml');
-      });
+    $phpView = new PhpRenderer('../templates');
+    return $phpView->render($response, 'about.phtml');
+});
